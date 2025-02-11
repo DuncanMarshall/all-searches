@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Open All Searches",
+  "version": "1.0",
+  "permissions": ["tabs"],
+  "description": "Mash the button while on a search page, and it will open up the same searches in other engines.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}
